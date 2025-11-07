@@ -1,0 +1,20 @@
+net-utils_autogen/timestamp: \
+	C:/Users/valer/Downloads/melonDS-1.0/cmake/FixInterfaceIncludes.cmake \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/CMakeLists.txt \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/LAN.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/LAN.h \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/LocalMP.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/LocalMP.h \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/MPInterface.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/MPInterface.h \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Net.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Net.h \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Net_PCap.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Net_PCap.h \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Net_Slirp.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Net_Slirp.h \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Netplay.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/Netplay.h \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/PacketDispatcher.cpp \
+	C:/Users/valer/Downloads/melonDS-1.0/src/net/PacketDispatcher.h \
+	C:/msys64/mingw64/bin/cmake.exe
