@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libteakra_c.a CMakeFiles/teakra_c.dir/disassembler_c.cpp.obj CMakeFiles/teakra_c.dir/teakra_c.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libteakra_c.a

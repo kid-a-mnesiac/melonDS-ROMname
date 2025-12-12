@@ -1,13 +1,13 @@
-C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/EWIEGA46WW/moc_TitleManagerDialog.cpp: C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/TitleManagerDialog.h \
-  C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/DSi_NAND.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/DSi_TMD.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/NDS_Header.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/Platform.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/SPI_Firmware.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/fatfs/ff.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/fatfs/ffconf.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/types.h \
+C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/EWIEGA46WW/moc_TitleManagerDialog.cpp: C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/TitleManagerDialog.h \
+  C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/DSi_NAND.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/DSi_TMD.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/NDS_Header.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/Platform.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/SPI_Firmware.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/fatfs/ff.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/fatfs/ffconf.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/types.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -262,6 +262,7 @@ C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/E
   C:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20type_traits.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20utility.h \
+  C:/msys64/mingw64/include/qt6/QtCore/q23type_traits.h \
   C:/msys64/mingw64/include/qt6/QtCore/q23utility.h \
   C:/msys64/mingw64/include/qt6/QtCore/q26numeric.h \
   C:/msys64/mingw64/include/qt6/QtCore/qabstractitemmodel.h \
@@ -358,7 +359,6 @@ C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/E
   C:/msys64/mingw64/include/qt6/QtCore/qstringconverter_base.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringfwd.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringlist.h \
-  C:/msys64/mingw64/include/qt6/QtCore/qstringliteral.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringmatcher.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringtokenizer.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringview.h \

@@ -1,0 +1,172 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/net/net-utils_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/net",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/src/net",
+	"CMAKE_EXECUTABLE" : "C:/msys64/mingw64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/src/net/CMakeLists.txt",
+		"C:/Users/vverd/Downloads/melonDS-master/cmake/FixInterfaceIncludes.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/net-utils_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "net-utils_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/LAN.h",
+			"MU",
+			"EWIEGA46WW/moc_LAN.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/LocalMP.h",
+			"MU",
+			"EWIEGA46WW/moc_LocalMP.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/MPInterface.h",
+			"MU",
+			"EWIEGA46WW/moc_MPInterface.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/Net.h",
+			"MU",
+			"EWIEGA46WW/moc_Net.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/Net_PCap.h",
+			"MU",
+			"EWIEGA46WW/moc_Net_PCap.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/Net_Slirp.h",
+			"MU",
+			"EWIEGA46WW/moc_Net_Slirp.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/Netplay.h",
+			"MU",
+			"EWIEGA46WW/moc_Netplay.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/PacketDispatcher.h",
+			"MU",
+			"EWIEGA46WW/moc_PacketDispatcher.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/net/net-utils_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/net-utils_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ARCHITECTURE_x86_64=1",
+		"ARCHIVE_SUPPORT_ENABLED",
+		"GDBSTUB_ENABLED",
+		"LIBSLIRP_STATIC_BUILD",
+		"NOMINMAX",
+		"WIN32_LEAN_AND_MEAN"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/src/net",
+		"C:/Users/vverd/Downloads/melonDS-master/src",
+		"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src",
+		"C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/include/c++/15.2.0",
+		"C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/15.2.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/c++.exe",
+		"-std=gnu++17",
+		"-w",
+		"-dM",
+		"-E",
+		"C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/net-utils_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/CMakeFiles/net-utils_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 10,
+	"SETTINGS_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/CMakeFiles/net-utils_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "C:/Users/vverd/Downloads/melonDS-master/src/net/LAN.cpp", "MU", null ],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/LocalMP.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/MPInterface.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/vverd/Downloads/melonDS-master/src/net/Net.cpp", "MU", null ],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/Net_PCap.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/Net_Slirp.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/Netplay.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/PacketDispatcher.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

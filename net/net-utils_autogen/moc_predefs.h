@@ -225,6 +225,7 @@
 #define __DEC64X_MIN__ 1E-6143D64x
 #define _WIN32 1
 #define __SEH__ 1
+#define WIN32_LEAN_AND_MEAN 1
 #define __INT_LEAST32_MAX__ 0x7fffffff
 #define __GCC_ATOMIC_INT_LOCK_FREE 2
 #define __FLT128_MAX_EXP__ 16384
@@ -271,6 +272,7 @@
 #define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
 #define __USER_LABEL_PREFIX__ 
 #define __SIZEOF_PTRDIFF_T__ 8
+#define NOMINMAX 1
 #define __FLT64X_HAS_INFINITY__ 1
 #define __SIZEOF_LONG__ 4
 #define __LDBL_DIG__ 18

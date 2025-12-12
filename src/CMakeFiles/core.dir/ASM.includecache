@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_x64/ARMJIT_Linkage.S
+ARMJIT_Offsets.h
+C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_x64/ARMJIT_Offsets.h
+
+C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_x64/ARMJIT_Offsets.h
+

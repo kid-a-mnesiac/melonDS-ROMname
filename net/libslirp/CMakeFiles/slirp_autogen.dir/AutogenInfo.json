@@ -1,0 +1,355 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/slirp_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp",
+	"CMAKE_EXECUTABLE" : "C:/msys64/mingw64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/CMakeLists.txt",
+		"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/libslirp-version.h.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/slirp_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "slirp_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/glib/glib.h",
+			"MU",
+			"XUFCX24TIM/moc_glib.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/bootp.h",
+			"MU",
+			"UVLADIE3JM/moc_bootp.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/dhcpv6.h",
+			"MU",
+			"UVLADIE3JM/moc_dhcpv6.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/if.h",
+			"MU",
+			"UVLADIE3JM/moc_if.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip6_icmp.h",
+			"MU",
+			"UVLADIE3JM/moc_ip6_icmp.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip_icmp.h",
+			"MU",
+			"UVLADIE3JM/moc_ip_icmp.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/mbuf.h",
+			"MU",
+			"UVLADIE3JM/moc_mbuf.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/misc.h",
+			"MU",
+			"UVLADIE3JM/moc_misc.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/sbuf.h",
+			"MU",
+			"UVLADIE3JM/moc_sbuf.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/slirp.h",
+			"MU",
+			"UVLADIE3JM/moc_slirp.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/socket.h",
+			"MU",
+			"UVLADIE3JM/moc_socket.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/stream.h",
+			"MU",
+			"UVLADIE3JM/moc_stream.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/tcp_timer.h",
+			"MU",
+			"UVLADIE3JM/moc_tcp_timer.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/tftp.h",
+			"MU",
+			"UVLADIE3JM/moc_tftp.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/udp.h",
+			"MU",
+			"UVLADIE3JM/moc_udp.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/util.h",
+			"MU",
+			"UVLADIE3JM/moc_util.cpp",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/vmstate.h",
+			"MU",
+			"UVLADIE3JM/moc_vmstate.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/slirp_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/slirp_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ARCHITECTURE_x86_64=1",
+		"ARCHIVE_SUPPORT_ENABLED",
+		"BUILDING_LIBSLIRP",
+		"GDBSTUB_ENABLED",
+		"G_LOG_DOMAIN=\"Slirp\"",
+		"LIBSLIRP_STATIC_BUILD",
+		"NOMINMAX",
+		"WIN32_LEAN_AND_MEAN"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/glib",
+		"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src",
+		"C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp",
+		"C:/msys64/mingw64/include/c++/15.2.0",
+		"C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/15.2.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/c++.exe",
+		"-std=gnu++17",
+		"-w",
+		"-dM",
+		"-E",
+		"C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/slirp_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/CMakeFiles/slirp_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 10,
+	"SETTINGS_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/CMakeFiles/slirp_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/glib/glib.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/arp_table.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/bootp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/cksum.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/dhcpv6.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/dnssearch.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/if.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip6_icmp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip6_input.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip6_output.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip_icmp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip_input.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ip_output.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/mbuf.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/misc.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ncsi.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/ndp_table.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/sbuf.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/slirp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/socket.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/state.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/stream.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/tcp_input.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/tcp_output.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/tcp_subr.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/tcp_timer.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/tftp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/udp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/udp6.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/util.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/version.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src/vmstate.c",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

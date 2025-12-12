@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl",
+	"CMAKE_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/res/melon384.png",
+		"C:/Users/vverd/Downloads/melonDS-master/res/icon/melon_256x256.png"
+	],
+	"LOCK_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/CMakeFiles/melonDS_autogen.dir/AutoRcc_melon_DQCCZ5YITF_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "melon" ],
+	"OUTPUT_CHECKSUM" : "DQCCZ5YITF",
+	"OUTPUT_NAME" : "qrc_melon.cpp",
+	"RCC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/CMakeFiles/melonDS_autogen.dir/AutoRcc_melon_DQCCZ5YITF_Used.txt",
+	"SOURCE" : "C:/Users/vverd/Downloads/melonDS-master/res/melon.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

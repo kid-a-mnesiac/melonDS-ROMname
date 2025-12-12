@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libnet-utils.a "CMakeFiles/net-utils.dir/net-utils_autogen/mocs_compilation.cpp.obj" "CMakeFiles/net-utils.dir/Net.cpp.obj" "CMakeFiles/net-utils.dir/Net_PCap.cpp.obj" "CMakeFiles/net-utils.dir/Net_Slirp.cpp.obj" "CMakeFiles/net-utils.dir/PacketDispatcher.cpp.obj" "CMakeFiles/net-utils.dir/LocalMP.cpp.obj" "CMakeFiles/net-utils.dir/LAN.cpp.obj" "CMakeFiles/net-utils.dir/Netplay.cpp.obj" "CMakeFiles/net-utils.dir/MPInterface.cpp.obj"
+C:\msys64\mingw64\bin\ranlib.exe libnet-utils.a

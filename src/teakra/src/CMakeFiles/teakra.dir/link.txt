@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libteakra.a CMakeFiles/teakra.dir/ahbm.cpp.obj CMakeFiles/teakra.dir/apbp.cpp.obj CMakeFiles/teakra.dir/btdmp.cpp.obj CMakeFiles/teakra.dir/disassembler.cpp.obj CMakeFiles/teakra.dir/dma.cpp.obj CMakeFiles/teakra.dir/timer.cpp.obj CMakeFiles/teakra.dir/memory_interface.cpp.obj CMakeFiles/teakra.dir/mmio.cpp.obj CMakeFiles/teakra.dir/parser.cpp.obj CMakeFiles/teakra.dir/processor.cpp.obj CMakeFiles/teakra.dir/teakra.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libteakra.a

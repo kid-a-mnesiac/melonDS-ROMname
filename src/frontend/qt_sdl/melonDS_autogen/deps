@@ -1,193 +1,199 @@
 melonDS_autogen/timestamp: \
-	C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
-	C:/Users/valer/Downloads/melonDS-1.0/build/src/version.h \
-	C:/Users/valer/Downloads/melonDS-1.0/cmake/FixInterfaceIncludes.cmake \
-	C:/Users/valer/Downloads/melonDS-1.0/res/melon.qrc \
-	C:/Users/valer/Downloads/melonDS-1.0/res/melon.rc.in \
-	C:/Users/valer/Downloads/melonDS-1.0/res/xp.manifest.in \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARCodeFile.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/AREngine.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARM.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_Compiler.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_Internal.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_Memory.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_RegisterCache.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_x64/ARMJIT_Compiler.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ARM_InstrInfo.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/Args.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/CRC32.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/DMA.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/DSi_NAND.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/DSi_TMD.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/FATIO.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/FATStorage.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/FIFO.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/FreeBIOS.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/GBACart.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/GPU.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/GPU2D.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/GPU3D.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/GPU3D_Soft.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/JitBlock.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/MemConstants.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/MemRegion.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/NDS.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/NDSCart.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/NDS_Header.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/NonStupidBitfield.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/Platform.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/ROMList.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/RTC.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/SPI.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/SPI_Firmware.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/SPU.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/Savestate.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/TinyVector.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/Wifi.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/debug/GdbArch.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/debug/GdbCmds.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/debug/GdbStub.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/BitSet.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/Compat.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/x64ABI.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/x64Emitter.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/x64Reg.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/fatfs/ff.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/fatfs/ffconf.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/ScreenLayout.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/ScreenLayout.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/duckstation_compat.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/gl/context.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/gl/context.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/gl/context_wgl.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/gl/context_wgl.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/window_info.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/glad/glad.c \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/glad/glad.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/glad/glad_wgl.c \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/glad/glad_wgl.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/glad/khrplatform.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/mic_blow.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/AboutDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/AboutDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/ArchiveUtil.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/ArchiveUtil.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/AudioSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/AudioSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CLI.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CLI.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CMakeLists.txt \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CameraManager.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CameraManager.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CameraSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CameraSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CheatsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CheatsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Config.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Config.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/DateTimeDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/DateTimeDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuInstance.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuInstance.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuInstanceAudio.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuInstanceInput.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuThread.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuThread.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/FirmwareSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/FirmwareSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InputConfig/InputConfigDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InputConfig/InputConfigDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InputConfig/MapButton.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InputConfig/resources/ds.qrc \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InterfaceSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InterfaceSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/LANDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/LANDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/MPSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/MPSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/NetplayDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/NetplayDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/OSD_shaders.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/PathSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/PathSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Platform.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/PowerManagement/PowerManagementDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/PowerManagement/PowerManagementDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/PowerManagement/resources/battery.qrc \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/QPathInput.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/RAMInfoDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/RAMInfoDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/ROMInfoDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/ROMInfoDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/SaveManager.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/SaveManager.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Screen.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Screen.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/TitleManagerDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/TitleManagerDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/VideoSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/VideoSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/WifiSettingsDialog.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/WifiSettingsDialog.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Window.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Window.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/font.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/main.cpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/main.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/main_shaders.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/color.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/comments.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/compat.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/datetime.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/error_info.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/exception.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/format.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/from.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/color_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/comments_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/datetime_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/error_info_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/format_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/location_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/region_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/source_location_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/value_t_fwd.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/color_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/comments_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/datetime_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/error_info_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/format_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/location_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/region_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/source_location_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/value_t_impl.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/into.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/location.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/ordered_map.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/region.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/result.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/source_location.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/storage.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/traits.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/types.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/utility.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/value.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/value_t.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/version.hpp \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/MPInterface.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/NetDriver.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/Net_PCap.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/Netplay.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/pcap/bpf.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/pcap/compiler-tests.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/pcap/dlt.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/pcap/funcattrs.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/pcap/pcap-inttypes.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/net/pcap/pcap.h \
-	C:/Users/valer/Downloads/melonDS-1.0/src/types.h \
+	C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
+	C:/Users/vverd/Downloads/melonDS-master/build/src/version.h \
+	C:/Users/vverd/Downloads/melonDS-master/cmake/FixInterfaceIncludes.cmake \
+	C:/Users/vverd/Downloads/melonDS-master/res/melon.qrc \
+	C:/Users/vverd/Downloads/melonDS-master/res/melon.rc.in \
+	C:/Users/vverd/Downloads/melonDS-master/res/xp.manifest.in \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARCodeFile.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARDatabaseDAT.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/AREngine.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARM.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_Compiler.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_Internal.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_Memory.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_RegisterCache.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_x64/ARMJIT_Compiler.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ARM_InstrInfo.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/Args.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/CRC32.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/DMA.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/DSi_NAND.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/DSi_TMD.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/FATIO.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/FATStorage.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/FIFO.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/FreeBIOS.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/GBACart.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/GPU.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/GPU2D.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/GPU3D.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/GPU3D_Soft.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/JitBlock.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/MemConstants.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/MemRegion.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/Mic.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/NDS.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/NDSCart.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/NDS_Header.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/NonStupidBitfield.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/Platform.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/ROMList.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/RTC.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/SPI.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/SPI_Firmware.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/SPU.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/Savestate.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/TinyVector.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/Wifi.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/debug/GdbArch.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/debug/GdbCmds.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/debug/GdbStub.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/dolphin/BitSet.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/dolphin/Compat.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/dolphin/x64ABI.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/dolphin/x64Emitter.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/dolphin/x64Reg.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/fatfs/ff.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/fatfs/ffconf.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/ScreenLayout.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/ScreenLayout.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/duckstation_compat.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/gl/context.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/gl/context.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/gl/context_wgl.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/gl/context_wgl.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/window_info.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/glad/glad.c \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/glad/glad.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/glad/glad_wgl.c \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/glad/glad_wgl.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/glad/khrplatform.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/mic_blow.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/ARCodeQDecl.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/AboutDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/AboutDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/ArchiveUtil.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/ArchiveUtil.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/AudioSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/AudioSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CLI.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CLI.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CMakeLists.txt \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CameraManager.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CameraManager.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CameraSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CameraSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CheatImportDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CheatImportDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CheatsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CheatsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Config.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Config.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/DateTimeDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/DateTimeDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuInstance.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuInstance.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuInstanceAudio.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuInstanceInput.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuThread.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuThread.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/FirmwareSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/FirmwareSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/InputConfigDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/InputConfigDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/MapButton.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/resources/ds.qrc \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InterfaceSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InterfaceSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/LANDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/LANDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/MPSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/MPSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/NetplayDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/NetplayDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/OSD_shaders.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PathSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PathSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Platform.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Platform_AAC.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/PowerManagementDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/PowerManagementDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/resources/battery.qrc \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/QPathInput.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/RAMInfoDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/RAMInfoDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/ROMInfoDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/ROMInfoDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/SaveManager.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/SaveManager.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Screen.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Screen.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/TitleManagerDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/TitleManagerDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/VideoSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/VideoSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/WifiSettingsDialog.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/WifiSettingsDialog.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Window.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Window.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/font.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/main.cpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/main.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/main_shaders.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/color.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/comments.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/compat.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/datetime.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/error_info.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/exception.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/format.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/from.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/color_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/comments_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/datetime_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/error_info_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/format_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/location_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/region_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/source_location_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/value_t_fwd.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/color_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/comments_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/datetime_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/error_info_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/format_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/location_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/region_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/source_location_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/value_t_impl.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/into.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/location.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/ordered_map.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/region.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/result.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/source_location.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/storage.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/traits.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/types.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/utility.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/value.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/value_t.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/version.hpp \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/MPInterface.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/NetDriver.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/Net_PCap.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/Netplay.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/pcap/bpf.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/pcap/compiler-tests.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/pcap/dlt.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/pcap/funcattrs.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/pcap/pcap-inttypes.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/net/pcap/pcap.h \
+	C:/Users/vverd/Downloads/melonDS-master/src/types.h \
 	C:/msys64/mingw64/include/SDL2/SDL.h \
 	C:/msys64/mingw64/include/SDL2/SDL_assert.h \
 	C:/msys64/mingw64/include/SDL2/SDL_atomic.h \
@@ -538,6 +544,7 @@ melonDS_autogen/timestamp: \
 	C:/msys64/mingw64/include/pthread_unistd.h \
 	C:/msys64/mingw64/include/qos.h \
 	C:/msys64/mingw64/include/qt6/QtCore/QAbstractItemModel \
+	C:/msys64/mingw64/include/qt6/QtCore/QAbstractListModel \
 	C:/msys64/mingw64/include/qt6/QtCore/QDateTime \
 	C:/msys64/mingw64/include/qt6/QtCore/QDeadlineTimer \
 	C:/msys64/mingw64/include/qt6/QtCore/QElapsedTimer \
@@ -570,6 +577,7 @@ melonDS_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
 	C:/msys64/mingw64/include/qt6/QtCore/q20type_traits.h \
 	C:/msys64/mingw64/include/qt6/QtCore/q20utility.h \
+	C:/msys64/mingw64/include/qt6/QtCore/q23type_traits.h \
 	C:/msys64/mingw64/include/qt6/QtCore/q23utility.h \
 	C:/msys64/mingw64/include/qt6/QtCore/q26numeric.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qabstracteventdispatcher.h \
@@ -680,7 +688,6 @@ melonDS_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtCore/qstringconverter_base.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qstringfwd.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qstringlist.h \
-	C:/msys64/mingw64/include/qt6/QtCore/qstringliteral.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qstringmatcher.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qstringtokenizer.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qstringview.h \
@@ -728,6 +735,7 @@ melonDS_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtGui/QImage \
 	C:/msys64/mingw64/include/qt6/QtGui/QPixmap \
 	C:/msys64/mingw64/include/qt6/QtGui/QScreen \
+	C:/msys64/mingw64/include/qt6/QtGui/QStandardItem \
 	C:/msys64/mingw64/include/qt6/QtGui/QStandardItemModel \
 	C:/msys64/mingw64/include/qt6/QtGui/QSyntaxHighlighter \
 	C:/msys64/mingw64/include/qt6/QtGui/QTransform \
@@ -1149,6 +1157,17 @@ melonDS_autogen/timestamp: \
 	C:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	C:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	C:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake \
+	C:/msys64/mingw64/lib/cmake/SDL2/sdlfind.cmake \
 	C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
 	C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
 	C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
@@ -1277,6 +1296,7 @@ melonDS_autogen/timestamp: \
 	C:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/CheckIncludeFile.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake \
+	C:/msys64/mingw64/share/cmake/Modules/FeatureSummary.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake \
@@ -1286,28 +1306,29 @@ melonDS_autogen/timestamp: \
 	C:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/AboutDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/AudioSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CameraSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/CheatsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/DateTimeDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/EmuSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/FirmwareSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InputConfig/InputConfigDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/InterfaceSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/LANDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/LANStartClientDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/LANStartHostDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/MPSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/NetplayDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/NetplayStartClientDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/NetplayStartHostDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/PathSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/PowerManagement/PowerManagementDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/RAMInfoDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/ROMInfoDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/TitleImportDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/TitleManagerDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/VideoSettingsDialog.ui \
-	C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/WifiSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/AboutDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/AudioSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CameraSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CheatImportDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/CheatsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/DateTimeDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/EmuSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/FirmwareSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/InputConfigDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InterfaceSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/LANDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/LANStartClientDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/LANStartHostDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/MPSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/NetplayDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/NetplayStartClientDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/NetplayStartHostDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PathSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/PowerManagementDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/RAMInfoDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/ROMInfoDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/TitleImportDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/TitleManagerDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/VideoSettingsDialog.ui \
+	C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/WifiSettingsDialog.ui \
 	C:/msys64/mingw64/bin/cmake.exe

@@ -3,6 +3,7 @@
 #include "EWIEGA46WW/moc_AudioSettingsDialog.cpp"
 #include "EWIEGA46WW/moc_CameraManager.cpp"
 #include "EWIEGA46WW/moc_CameraSettingsDialog.cpp"
+#include "EWIEGA46WW/moc_CheatImportDialog.cpp"
 #include "EWIEGA46WW/moc_CheatsDialog.cpp"
 #include "EWIEGA46WW/moc_DateTimeDialog.cpp"
 #include "EWIEGA46WW/moc_EmuSettingsDialog.cpp"

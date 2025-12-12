@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'EmuSettingsDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 6.10.0
+** Created by: Qt User Interface Compiler version 6.10.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -56,31 +56,33 @@ public:
     QCheckBox *chkExternalBIOS;
     QWidget *tab_4;
     QGridLayout *gridLayout_2;
-    QLabel *label_8;
-    QPathInput *txtDSiBIOS9Path;
-    QLineEdit *txtDSiSDFolder;
-    QCheckBox *cbDSiSDFolder;
-    QLabel *label_14;
-    QLabel *label_5;
-    QPushButton *btnDSiBIOS9Browse;
-    QPathInput *txtDSiBIOS7Path;
-    QLabel *label_15;
-    QLabel *label_13;
-    QLabel *label_6;
-    QPushButton *btnDSiBIOS7Browse;
-    QPushButton *btnDSiSDBrowse;
-    QLabel *label_7;
-    QCheckBox *cbDSiSDReadOnly;
-    QCheckBox *cbDSiSDEnable;
-    QPushButton *btnDSiFirmwareBrowse;
-    QPushButton *btnDSiNANDBrowse;
-    QPathInput *txtDSiSDPath;
-    QPathInput *txtDSiFirmwarePath;
-    QPathInput *txtDSiNANDPath;
-    QComboBox *cbxDSiSDSize;
-    QLabel *label_10;
     QPushButton *btnDSiSDFolderBrowse;
+    QPathInput *txtDSiSDPath;
+    QComboBox *cbxDSiSDSize;
+    QCheckBox *cbDSiSDEnable;
+    QPushButton *btnDSiNANDBrowse;
+    QPathInput *txtDSiFirmwarePath;
+    QCheckBox *cbDSiSDFolder;
+    QPathInput *txtDSiNANDPath;
+    QLabel *label_14;
+    QLabel *label_8;
+    QLabel *label_15;
     QCheckBox *cbDSiFullBIOSBoot;
+    QPathInput *txtDSiBIOS7Path;
+    QLabel *label_13;
+    QLineEdit *txtDSiSDFolder;
+    QLabel *label_7;
+    QLabel *label_10;
+    QPushButton *btnDSiBIOS7Browse;
+    QPathInput *txtDSiBIOS9Path;
+    QPushButton *btnDSiBIOS9Browse;
+    QPushButton *btnDSiSDBrowse;
+    QLabel *label_6;
+    QPushButton *btnDSiFirmwareBrowse;
+    QCheckBox *cbDSiSDReadOnly;
+    QLabel *label_5;
+    QLabel *label_20;
+    QCheckBox *cbDSPHLE;
     QWidget *tab_3;
     QFormLayout *formLayout_5;
     QCheckBox *chkEnableJIT;
@@ -121,7 +123,7 @@ public:
     {
         if (EmuSettingsDialog->objectName().isEmpty())
             EmuSettingsDialog->setObjectName("EmuSettingsDialog");
-        EmuSettingsDialog->resize(575, 416);
+        EmuSettingsDialog->resize(575, 556);
         QSizePolicy sizePolicy(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -129,7 +131,7 @@ public:
         EmuSettingsDialog->setSizePolicy(sizePolicy);
         verticalLayout = new QVBoxLayout(EmuSettingsDialog);
         verticalLayout->setObjectName("verticalLayout");
-        verticalLayout->setSizeConstraint(QLayout::SetFixedSize);
+        verticalLayout->setSizeConstraint(QLayout::SizeConstraint::SetFixedSize);
         tabWidget = new QTabWidget(EmuSettingsDialog);
         tabWidget->setObjectName("tabWidget");
         tab = new QWidget();
@@ -227,7 +229,7 @@ public:
         sizePolicy4.setVerticalStretch(0);
         sizePolicy4.setHeightForWidth(btnBIOS9Browse->sizePolicy().hasHeightForWidth());
         btnBIOS9Browse->setSizePolicy(sizePolicy4);
-        btnBIOS9Browse->setAutoDefault(true);
+        btnBIOS9Browse->setAutoDefault(false);
 
         gridLayout->addWidget(btnBIOS9Browse, 1, 2, 1, 1);
 
@@ -241,10 +243,95 @@ public:
         tab_4->setObjectName("tab_4");
         gridLayout_2 = new QGridLayout(tab_4);
         gridLayout_2->setObjectName("gridLayout_2");
+        btnDSiSDFolderBrowse = new QPushButton(tab_4);
+        btnDSiSDFolderBrowse->setObjectName("btnDSiSDFolderBrowse");
+
+        gridLayout_2->addWidget(btnDSiSDFolderBrowse, 14, 2, 1, 1);
+
+        txtDSiSDPath = new QPathInput(tab_4);
+        txtDSiSDPath->setObjectName("txtDSiSDPath");
+
+        gridLayout_2->addWidget(txtDSiSDPath, 11, 1, 1, 1);
+
+        cbxDSiSDSize = new QComboBox(tab_4);
+        cbxDSiSDSize->setObjectName("cbxDSiSDSize");
+
+        gridLayout_2->addWidget(cbxDSiSDSize, 12, 1, 1, 1);
+
+        cbDSiSDEnable = new QCheckBox(tab_4);
+        cbDSiSDEnable->setObjectName("cbDSiSDEnable");
+
+        gridLayout_2->addWidget(cbDSiSDEnable, 10, 0, 1, 3);
+
+        btnDSiNANDBrowse = new QPushButton(tab_4);
+        btnDSiNANDBrowse->setObjectName("btnDSiNANDBrowse");
+
+        gridLayout_2->addWidget(btnDSiNANDBrowse, 4, 2, 1, 1);
+
+        txtDSiFirmwarePath = new QPathInput(tab_4);
+        txtDSiFirmwarePath->setObjectName("txtDSiFirmwarePath");
+
+        gridLayout_2->addWidget(txtDSiFirmwarePath, 3, 1, 1, 1);
+
+        cbDSiSDFolder = new QCheckBox(tab_4);
+        cbDSiSDFolder->setObjectName("cbDSiSDFolder");
+
+        gridLayout_2->addWidget(cbDSiSDFolder, 14, 0, 1, 1);
+
+        txtDSiNANDPath = new QPathInput(tab_4);
+        txtDSiNANDPath->setObjectName("txtDSiNANDPath");
+
+        gridLayout_2->addWidget(txtDSiNANDPath, 4, 1, 1, 1);
+
+        label_14 = new QLabel(tab_4);
+        label_14->setObjectName("label_14");
+
+        gridLayout_2->addWidget(label_14, 7, 0, 1, 3);
+
         label_8 = new QLabel(tab_4);
         label_8->setObjectName("label_8");
 
         gridLayout_2->addWidget(label_8, 4, 0, 1, 1);
+
+        label_15 = new QLabel(tab_4);
+        label_15->setObjectName("label_15");
+
+        gridLayout_2->addWidget(label_15, 0, 0, 1, 3);
+
+        cbDSiFullBIOSBoot = new QCheckBox(tab_4);
+        cbDSiFullBIOSBoot->setObjectName("cbDSiFullBIOSBoot");
+
+        gridLayout_2->addWidget(cbDSiFullBIOSBoot, 5, 0, 1, 3);
+
+        txtDSiBIOS7Path = new QPathInput(tab_4);
+        txtDSiBIOS7Path->setObjectName("txtDSiBIOS7Path");
+
+        gridLayout_2->addWidget(txtDSiBIOS7Path, 2, 1, 1, 1);
+
+        label_13 = new QLabel(tab_4);
+        label_13->setObjectName("label_13");
+
+        gridLayout_2->addWidget(label_13, 12, 0, 1, 1);
+
+        txtDSiSDFolder = new QLineEdit(tab_4);
+        txtDSiSDFolder->setObjectName("txtDSiSDFolder");
+
+        gridLayout_2->addWidget(txtDSiSDFolder, 14, 1, 1, 1);
+
+        label_7 = new QLabel(tab_4);
+        label_7->setObjectName("label_7");
+
+        gridLayout_2->addWidget(label_7, 3, 0, 1, 1);
+
+        label_10 = new QLabel(tab_4);
+        label_10->setObjectName("label_10");
+
+        gridLayout_2->addWidget(label_10, 11, 0, 1, 1);
+
+        btnDSiBIOS7Browse = new QPushButton(tab_4);
+        btnDSiBIOS7Browse->setObjectName("btnDSiBIOS7Browse");
+
+        gridLayout_2->addWidget(btnDSiBIOS7Browse, 2, 2, 1, 1);
 
         txtDSiBIOS9Path = new QPathInput(tab_4);
         txtDSiBIOS9Path->setObjectName("txtDSiBIOS9Path");
@@ -253,120 +340,45 @@ public:
 
         gridLayout_2->addWidget(txtDSiBIOS9Path, 1, 1, 1, 1);
 
-        txtDSiSDFolder = new QLineEdit(tab_4);
-        txtDSiSDFolder->setObjectName("txtDSiSDFolder");
-
-        gridLayout_2->addWidget(txtDSiSDFolder, 12, 1, 1, 1);
-
-        cbDSiSDFolder = new QCheckBox(tab_4);
-        cbDSiSDFolder->setObjectName("cbDSiSDFolder");
-
-        gridLayout_2->addWidget(cbDSiSDFolder, 12, 0, 1, 1);
-
-        label_14 = new QLabel(tab_4);
-        label_14->setObjectName("label_14");
-
-        gridLayout_2->addWidget(label_14, 7, 0, 1, 3);
-
-        label_5 = new QLabel(tab_4);
-        label_5->setObjectName("label_5");
-
-        gridLayout_2->addWidget(label_5, 1, 0, 1, 1);
-
         btnDSiBIOS9Browse = new QPushButton(tab_4);
         btnDSiBIOS9Browse->setObjectName("btnDSiBIOS9Browse");
 
         gridLayout_2->addWidget(btnDSiBIOS9Browse, 1, 2, 1, 1);
 
-        txtDSiBIOS7Path = new QPathInput(tab_4);
-        txtDSiBIOS7Path->setObjectName("txtDSiBIOS7Path");
+        btnDSiSDBrowse = new QPushButton(tab_4);
+        btnDSiSDBrowse->setObjectName("btnDSiSDBrowse");
 
-        gridLayout_2->addWidget(txtDSiBIOS7Path, 2, 1, 1, 1);
-
-        label_15 = new QLabel(tab_4);
-        label_15->setObjectName("label_15");
-
-        gridLayout_2->addWidget(label_15, 0, 0, 1, 3);
-
-        label_13 = new QLabel(tab_4);
-        label_13->setObjectName("label_13");
-
-        gridLayout_2->addWidget(label_13, 10, 0, 1, 1);
+        gridLayout_2->addWidget(btnDSiSDBrowse, 11, 2, 1, 1);
 
         label_6 = new QLabel(tab_4);
         label_6->setObjectName("label_6");
 
         gridLayout_2->addWidget(label_6, 2, 0, 1, 1);
 
-        btnDSiBIOS7Browse = new QPushButton(tab_4);
-        btnDSiBIOS7Browse->setObjectName("btnDSiBIOS7Browse");
-
-        gridLayout_2->addWidget(btnDSiBIOS7Browse, 2, 2, 1, 1);
-
-        btnDSiSDBrowse = new QPushButton(tab_4);
-        btnDSiSDBrowse->setObjectName("btnDSiSDBrowse");
-
-        gridLayout_2->addWidget(btnDSiSDBrowse, 9, 2, 1, 1);
-
-        label_7 = new QLabel(tab_4);
-        label_7->setObjectName("label_7");
-
-        gridLayout_2->addWidget(label_7, 3, 0, 1, 1);
-
-        cbDSiSDReadOnly = new QCheckBox(tab_4);
-        cbDSiSDReadOnly->setObjectName("cbDSiSDReadOnly");
-
-        gridLayout_2->addWidget(cbDSiSDReadOnly, 11, 0, 1, 1);
-
-        cbDSiSDEnable = new QCheckBox(tab_4);
-        cbDSiSDEnable->setObjectName("cbDSiSDEnable");
-
-        gridLayout_2->addWidget(cbDSiSDEnable, 8, 0, 1, 3);
-
         btnDSiFirmwareBrowse = new QPushButton(tab_4);
         btnDSiFirmwareBrowse->setObjectName("btnDSiFirmwareBrowse");
 
         gridLayout_2->addWidget(btnDSiFirmwareBrowse, 3, 2, 1, 1);
 
-        btnDSiNANDBrowse = new QPushButton(tab_4);
-        btnDSiNANDBrowse->setObjectName("btnDSiNANDBrowse");
+        cbDSiSDReadOnly = new QCheckBox(tab_4);
+        cbDSiSDReadOnly->setObjectName("cbDSiSDReadOnly");
 
-        gridLayout_2->addWidget(btnDSiNANDBrowse, 4, 2, 1, 1);
+        gridLayout_2->addWidget(cbDSiSDReadOnly, 13, 0, 1, 1);
 
-        txtDSiSDPath = new QPathInput(tab_4);
-        txtDSiSDPath->setObjectName("txtDSiSDPath");
+        label_5 = new QLabel(tab_4);
+        label_5->setObjectName("label_5");
 
-        gridLayout_2->addWidget(txtDSiSDPath, 9, 1, 1, 1);
+        gridLayout_2->addWidget(label_5, 1, 0, 1, 1);
 
-        txtDSiFirmwarePath = new QPathInput(tab_4);
-        txtDSiFirmwarePath->setObjectName("txtDSiFirmwarePath");
+        label_20 = new QLabel(tab_4);
+        label_20->setObjectName("label_20");
 
-        gridLayout_2->addWidget(txtDSiFirmwarePath, 3, 1, 1, 1);
+        gridLayout_2->addWidget(label_20, 9, 0, 1, 2);
 
-        txtDSiNANDPath = new QPathInput(tab_4);
-        txtDSiNANDPath->setObjectName("txtDSiNANDPath");
+        cbDSPHLE = new QCheckBox(tab_4);
+        cbDSPHLE->setObjectName("cbDSPHLE");
 
-        gridLayout_2->addWidget(txtDSiNANDPath, 4, 1, 1, 1);
-
-        cbxDSiSDSize = new QComboBox(tab_4);
-        cbxDSiSDSize->setObjectName("cbxDSiSDSize");
-
-        gridLayout_2->addWidget(cbxDSiSDSize, 10, 1, 1, 1);
-
-        label_10 = new QLabel(tab_4);
-        label_10->setObjectName("label_10");
-
-        gridLayout_2->addWidget(label_10, 9, 0, 1, 1);
-
-        btnDSiSDFolderBrowse = new QPushButton(tab_4);
-        btnDSiSDFolderBrowse->setObjectName("btnDSiSDFolderBrowse");
-
-        gridLayout_2->addWidget(btnDSiSDFolderBrowse, 12, 2, 1, 1);
-
-        cbDSiFullBIOSBoot = new QCheckBox(tab_4);
-        cbDSiFullBIOSBoot->setObjectName("cbDSiFullBIOSBoot");
-
-        gridLayout_2->addWidget(cbDSiFullBIOSBoot, 5, 0, 1, 3);
+        gridLayout_2->addWidget(cbDSPHLE, 8, 0, 1, 2);
 
         tabWidget->addTab(tab_4, QString());
         tab_3 = new QWidget();
@@ -535,8 +547,8 @@ public:
 
         buttonBox = new QDialogButtonBox(EmuSettingsDialog);
         buttonBox->setObjectName("buttonBox");
-        buttonBox->setOrientation(Qt::Horizontal);
-        buttonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);
+        buttonBox->setOrientation(Qt::Orientation::Horizontal);
+        buttonBox->setStandardButtons(QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok);
 
         verticalLayout->addWidget(buttonBox);
 
@@ -623,57 +635,59 @@ public:
 #endif // QT_CONFIG(whatsthis)
         chkExternalBIOS->setText(QCoreApplication::translate("EmuSettingsDialog", "Use external BIOS/firmware files", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("EmuSettingsDialog", "DS-mode", nullptr));
-        label_8->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi NAND:", nullptr));
+        btnDSiSDFolderBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
 #if QT_CONFIG(whatsthis)
-        txtDSiBIOS9Path->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>DSi-mode ARM9 BIOS</p><p><br/></p><p>Size should be 64 KB</p></body></html>", nullptr));
+        txtDSiSDPath->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>SD image file for emulating the DSi's SD card. A blank image file will be created if it doesn't already exist.</p></body></html>", nullptr));
 #endif // QT_CONFIG(whatsthis)
 #if QT_CONFIG(whatsthis)
-        txtDSiSDFolder->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Sync the emulated SD card to the given folder. The folder's contents will be copied to the SD image, and any change made to the SD image will be reflected to the folder.</p></body></html>", nullptr));
+        cbxDSiSDSize->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Size of the SD image.</p><p><br/></p><p>If set to Auto:</p><p>* if an image file exists, the volume size will be that of the image file</p><p>* if no image file exists and folder sync is enabled, the volume size will be determined from the synced folder's contents</p><p>* otherwise, the volume size will default to 512 MB</p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+#if QT_CONFIG(whatsthis)
+        cbDSiSDEnable->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Simulate a SD card being inserted in the DSi's SD slot.</p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        cbDSiSDEnable->setText(QCoreApplication::translate("EmuSettingsDialog", "Enable DSi SD card", nullptr));
+        btnDSiNANDBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
+#if QT_CONFIG(whatsthis)
+        txtDSiFirmwarePath->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>DSi-mode firmware (used for DS-mode backwards compatibility)</p><p><br/></p><p>Size should be 128 KB</p></body></html>", nullptr));
 #endif // QT_CONFIG(whatsthis)
 #if QT_CONFIG(whatsthis)
         cbDSiSDFolder->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Sync the emulated SD card to the given folder. The folder's contents will be copied to the SD image, and any change made to the SD image will be reflected to the folder.</p></body></html>", nullptr));
 #endif // QT_CONFIG(whatsthis)
         cbDSiSDFolder->setText(QCoreApplication::translate("EmuSettingsDialog", "Sync SD to folder:", nullptr));
-        label_14->setText(QString());
-        label_5->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi ARM9 BIOS:", nullptr));
-        btnDSiBIOS9Browse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
-#if QT_CONFIG(whatsthis)
-        txtDSiBIOS7Path->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>DSi-mode ARM7 BIOS</p><p><br/></p><p>Size should be 64 KB</p></body></html>", nullptr));
-#endif // QT_CONFIG(whatsthis)
-        label_15->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi mode requires external DSi BIOS/firmware/NAND", nullptr));
-        label_13->setText(QCoreApplication::translate("EmuSettingsDialog", "Image size:", nullptr));
-        label_6->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi ARM7 BIOS:", nullptr));
-        btnDSiBIOS7Browse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
-        btnDSiSDBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
-        label_7->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi firmware:", nullptr));
-#if QT_CONFIG(whatsthis)
-        cbDSiSDReadOnly->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Make the emulated SD card read-only.</p></body></html>", nullptr));
-#endif // QT_CONFIG(whatsthis)
-        cbDSiSDReadOnly->setText(QCoreApplication::translate("EmuSettingsDialog", "Read-only SD", nullptr));
-#if QT_CONFIG(whatsthis)
-        cbDSiSDEnable->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Simulate a SD card being inserted in the DSi's SD slot.</p></body></html>", nullptr));
-#endif // QT_CONFIG(whatsthis)
-        cbDSiSDEnable->setText(QCoreApplication::translate("EmuSettingsDialog", "Enable DSi SD card", nullptr));
-        btnDSiFirmwareBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
-        btnDSiNANDBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
-#if QT_CONFIG(whatsthis)
-        txtDSiSDPath->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>SD image file for emulating the DSi's SD card. A blank image file will be created if it doesn't already exist.</p></body></html>", nullptr));
-#endif // QT_CONFIG(whatsthis)
-#if QT_CONFIG(whatsthis)
-        txtDSiFirmwarePath->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>DSi-mode firmware (used for DS-mode backwards compatibility)</p><p><br/></p><p>Size should be 128 KB</p></body></html>", nullptr));
-#endif // QT_CONFIG(whatsthis)
 #if QT_CONFIG(whatsthis)
         txtDSiNANDPath->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>DSi NAND dump</p><p><br/></p><p>Should have 'nocash footer' at the end</p></body></html>", nullptr));
 #endif // QT_CONFIG(whatsthis)
-#if QT_CONFIG(whatsthis)
-        cbxDSiSDSize->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Size of the SD image.</p><p><br/></p><p>If set to Auto:</p><p>* if an image file exists, the volume size will be that of the image file</p><p>* if no image file exists and folder sync is enabled, the volume size will be determined from the synced folder's contents</p><p>* otherwise, the volume size will default to 512 MB</p></body></html>", nullptr));
-#endif // QT_CONFIG(whatsthis)
-        label_10->setText(QCoreApplication::translate("EmuSettingsDialog", "SD card image:", nullptr));
-        btnDSiSDFolderBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
+        label_14->setText(QString());
+        label_8->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi NAND:", nullptr));
+        label_15->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi mode requires external DSi BIOS/firmware/NAND", nullptr));
 #if QT_CONFIG(whatsthis)
         cbDSiFullBIOSBoot->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Boot the system from scratch by running the full boot ROMs, instead of starting with the second-stage loader. Requires a full BIOS/bootROM dump.</p></body></html>", nullptr));
 #endif // QT_CONFIG(whatsthis)
         cbDSiFullBIOSBoot->setText(QCoreApplication::translate("EmuSettingsDialog", "Full BIOS boot", nullptr));
+#if QT_CONFIG(whatsthis)
+        txtDSiBIOS7Path->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>DSi-mode ARM7 BIOS</p><p><br/></p><p>Size should be 64 KB</p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        label_13->setText(QCoreApplication::translate("EmuSettingsDialog", "Image size:", nullptr));
+#if QT_CONFIG(whatsthis)
+        txtDSiSDFolder->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Sync the emulated SD card to the given folder. The folder's contents will be copied to the SD image, and any change made to the SD image will be reflected to the folder.</p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        label_7->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi firmware:", nullptr));
+        label_10->setText(QCoreApplication::translate("EmuSettingsDialog", "SD card image:", nullptr));
+        btnDSiBIOS7Browse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
+#if QT_CONFIG(whatsthis)
+        txtDSiBIOS9Path->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>DSi-mode ARM9 BIOS</p><p><br/></p><p>Size should be 64 KB</p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        btnDSiBIOS9Browse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
+        btnDSiSDBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
+        label_6->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi ARM7 BIOS:", nullptr));
+        btnDSiFirmwareBrowse->setText(QCoreApplication::translate("EmuSettingsDialog", "Browse...", nullptr));
+#if QT_CONFIG(whatsthis)
+        cbDSiSDReadOnly->setWhatsThis(QCoreApplication::translate("EmuSettingsDialog", "<html><head/><body><p>Make the emulated SD card read-only.</p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        cbDSiSDReadOnly->setText(QCoreApplication::translate("EmuSettingsDialog", "Read-only SD", nullptr));
+        label_5->setText(QCoreApplication::translate("EmuSettingsDialog", "DSi ARM9 BIOS:", nullptr));
+        label_20->setText(QString());
+        cbDSPHLE->setText(QCoreApplication::translate("EmuSettingsDialog", "DSP HLE", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_4), QCoreApplication::translate("EmuSettingsDialog", "DSi-mode", nullptr));
         chkEnableJIT->setText(QCoreApplication::translate("EmuSettingsDialog", "Enable JIT recompiler", nullptr));
         label_9->setText(QCoreApplication::translate("EmuSettingsDialog", "Maximum JIT block size:", nullptr));

@@ -1,0 +1,1 @@
+-I"C:/Users/vverd/Downloads/melonDS-master/build/net/net-utils_autogen/include" -I"C:/Users/vverd/Downloads/melonDS-master/src/net" -I"C:/Users/vverd/Downloads/melonDS-master/src/net/.." -isystem "C:/Users/vverd/Downloads/melonDS-master/src/net/libslirp/src" -isystem "C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp"

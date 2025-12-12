@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/valer/Downloads/melonDS-1.0
+# Install script for directory: C:/Users/vverd/Downloads/melonDS-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,18 +39,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/valer/Downloads/melonDS-1.0/build/src/cmake_install.cmake")
+  include("C:/Users/vverd/Downloads/melonDS-master/build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/cmake_install.cmake")
+  include("C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/valer/Downloads/melonDS-1.0/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/vverd/Downloads/melonDS-master/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -66,6 +66,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/valer/Downloads/melonDS-1.0/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/vverd/Downloads/melonDS-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

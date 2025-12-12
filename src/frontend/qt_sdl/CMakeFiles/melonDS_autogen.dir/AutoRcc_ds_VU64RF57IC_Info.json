@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl",
+	"CMAKE_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/resources/ds_open.svg",
+		"C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/resources/ds_back.svg"
+	],
+	"LOCK_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/CMakeFiles/melonDS_autogen.dir/AutoRcc_ds_VU64RF57IC_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "ds" ],
+	"OUTPUT_CHECKSUM" : "VU64RF57IC",
+	"OUTPUT_NAME" : "qrc_ds.cpp",
+	"RCC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/CMakeFiles/melonDS_autogen.dir/AutoRcc_ds_VU64RF57IC_Used.txt",
+	"SOURCE" : "C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/InputConfig/resources/ds.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

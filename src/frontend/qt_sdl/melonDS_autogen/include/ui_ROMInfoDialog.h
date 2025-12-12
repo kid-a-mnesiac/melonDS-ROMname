@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ROMInfoDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 6.10.0
+** Created by: Qt User Interface Compiler version 6.10.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -15,6 +15,7 @@
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QFormLayout>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
@@ -86,27 +87,25 @@ public:
     QDialogButtonBox *buttonBox;
     QGroupBox *groupBox_2;
     QGridLayout *gridLayout_9;
-    QPushButton *saveIconButton;
+    QFrame *frame;
+    QGridLayout *gridLayout_3;
     QGroupBox *iconBox;
     QGridLayout *gridLayout_2;
-    QLabel *iconImage;
-    QGroupBox *titleBox;
-    QGridLayout *gridLayout_4;
     QLabel *iconTitle;
-    QSpacerItem *horizontalSpacer_2;
-    QSpacerItem *horizontalSpacer_4;
+    QLabel *iconImage;
+    QSpacerItem *horizontalSpacer;
+    QSpacerItem *horizontalSpacer_3;
     QGroupBox *dsiIconBox;
     QGridLayout *gridLayout_10;
     QLabel *dsiIconImage;
+    QPushButton *saveIconButton;
     QPushButton *saveAnimatedIconButton;
-    QSpacerItem *horizontalSpacer_3;
-    QSpacerItem *horizontalSpacer;
 
     void setupUi(QDialog *ROMInfoDialog)
     {
         if (ROMInfoDialog->objectName().isEmpty())
             ROMInfoDialog->setObjectName("ROMInfoDialog");
-        ROMInfoDialog->resize(557, 547);
+        ROMInfoDialog->resize(482, 516);
         QSizePolicy sizePolicy(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -419,32 +418,129 @@ public:
         groupBox_2->setObjectName("groupBox_2");
         gridLayout_9 = new QGridLayout(groupBox_2);
         gridLayout_9->setObjectName("gridLayout_9");
-        saveIconButton = new QPushButton(groupBox_2);
-        saveIconButton->setObjectName("saveIconButton");
-
-        gridLayout_9->addWidget(saveIconButton, 1, 1, 1, 1);
-
-        iconBox = new QGroupBox(groupBox_2);
+        frame = new QFrame(groupBox_2);
+        frame->setObjectName("frame");
+        frame->setFrameShape(QFrame::Box);
+        frame->setFrameShadow(QFrame::Plain);
+        frame->setLineWidth(1);
+        gridLayout_3 = new QGridLayout(frame);
+        gridLayout_3->setObjectName("gridLayout_3");
+        gridLayout_3->setContentsMargins(0, 0, 0, 0);
+        iconBox = new QGroupBox(frame);
         iconBox->setObjectName("iconBox");
-        QSizePolicy sizePolicy1(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Fixed);
-        sizePolicy1.setHorizontalStretch(0);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(iconBox->sizePolicy().hasHeightForWidth());
-        iconBox->setSizePolicy(sizePolicy1);
+        sizePolicy.setHeightForWidth(iconBox->sizePolicy().hasHeightForWidth());
+        iconBox->setSizePolicy(sizePolicy);
+        iconBox->setMinimumSize(QSize(187, 43));
+        iconBox->setMaximumSize(QSize(187, 45));
         iconBox->setStyleSheet(QString::fromUtf8("#iconBox {\n"
-"    border: 1px solid black;\n"
-"    background-color:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, \n"
-"    stop: 0 white,  \n"
-"    stop: 1 lightgrey);\n"
-"}\n"
-"\n"
-"#titleBox {\n"
-"    border: 0.5px solid grey;\n"
-"    background-color: #fbfbfb;\n"
+"	border: 1px solid white;\n"
+"	background-color: qlineargradient(\n"
+"		x1: 0, y1: 1,\n"
+"		x2: 0, y2: 0,\n"
+"		stop: 0 #c3c3c3,\n"
+"		stop: 0.199 #c3c3c3,\n"
+"		stop: 0.2 #d3d3d3,\n"
+"		stop: 0.399 #d3d3d3,\n"
+"		stop: 0.4 #e3e3e3,\n"
+"		stop: 0.599 #e3e3e3,\n"
+"		stop: 0.6 #f3f3f3,\n"
+"		stop: 0.799 #f3f3f3,\n"
+"		stop: 0.8 #fbfbfb,\n"
+"		stop: 1 #fbfbfb\n"
+"	);\n"
 "}\n"
 "\n"
 "#iconTitle {\n"
-"    color: black;\n"
+"	border: 1px solid #a2a2a2;\n"
+"	border-left-color: #797979;\n"
+"	letter-spacing: -0.5px;\n"
+"	background-color: qlineargradient(\n"
+"		x1: 0, y1: 0,\n"
+"		x2: 0, y2: 1,\n"
+"		stop: 0.000000 #fbfbfb,\n"
+"		stop: 0.024380 #fbfbfb,\n"
+"		stop: 0.024390 #e3e3e3,\n"
+"		stop: 0.048770 #e3e3e3,\n"
+"		stop: 0.048780 #fbfbfb,\n"
+"		stop: 0.073161 #fbfbfb,\n"
+"		stop: 0.073171 #e3e3e3,\n"
+"		stop: 0.097551 #e3e3e3,\n"
+"		stop: 0.097561 #fbfbfb,\n"
+"		stop: 0.121941 #fbfbfb,\n"
+"		stop: 0.121951 #e3e3e3,\n"
+"		stop: 0.146331 #e3e3e3,\n"
+"		stop: 0.146341 #fbfbfb,\n"
+"		stop: 0.170722 #fbfbfb,\n"
+"		stop: 0.170732 "
+                        "#e3e3e3,\n"
+"		stop: 0.195112 #e3e3e3,\n"
+"		stop: 0.195122 #fbfbfb,\n"
+"		stop: 0.219502 #fbfbfb,\n"
+"		stop: 0.219512 #e3e3e3,\n"
+"		stop: 0.243892 #e3e3e3,\n"
+"		stop: 0.243902 #fbfbfb,\n"
+"		stop: 0.268283 #fbfbfb,\n"
+"		stop: 0.268293 #e3e3e3,\n"
+"		stop: 0.292673 #e3e3e3,\n"
+"		stop: 0.292683 #fbfbfb,\n"
+"		stop: 0.317063 #fbfbfb,\n"
+"		stop: 0.317073 #e3e3e3,\n"
+"		stop: 0.341453 #e3e3e3,\n"
+"		stop: 0.341463 #fbfbfb,\n"
+"		stop: 0.365844 #fbfbfb,\n"
+"		stop: 0.365854 #e3e3e3,\n"
+"		stop: 0.390234 #e3e3e3,\n"
+"		stop: 0.390244 #fbfbfb,\n"
+"		stop: 0.414624 #fbfbfb,\n"
+"		stop: 0.414634 #e3e3e3,\n"
+"		stop: 0.439014 #e3e3e3,\n"
+"		stop: 0.439024 #fbfbfb,\n"
+"		stop: 0.463405 #fbfbfb,\n"
+"		stop: 0.463415 #e3e3e3,\n"
+"		stop: 0.487795 #e3e3e3,\n"
+"		stop: 0.487805 #fbfbfb,\n"
+"		stop: 0.512185 #fbfbfb,\n"
+"		stop: 0.512195 #e3e3e3,\n"
+"		stop: 0.536575 #e3e3e3,\n"
+"		stop: 0.536585 #fbfbfb,\n"
+"		stop: 0.560966 #fbfbfb,\n"
+"		stop: 0.560976 #e3e3e3,\n"
+"		stop: 0.585356 #e3e3e3,\n"
+"		stop: 0.585366 #fbfb"
+                        "fb,\n"
+"		stop: 0.609746 #fbfbfb,\n"
+"		stop: 0.609756 #e3e3e3,\n"
+"		stop: 0.634136 #e3e3e3,\n"
+"		stop: 0.634146 #fbfbfb,\n"
+"		stop: 0.658527 #fbfbfb,\n"
+"		stop: 0.658537 #e3e3e3,\n"
+"		stop: 0.682917 #e3e3e3,\n"
+"		stop: 0.682927 #fbfbfb,\n"
+"		stop: 0.707307 #fbfbfb,\n"
+"		stop: 0.707317 #e3e3e3,\n"
+"		stop: 0.731697 #e3e3e3,\n"
+"		stop: 0.731707 #fbfbfb,\n"
+"		stop: 0.756088 #fbfbfb,\n"
+"		stop: 0.756098 #e3e3e3,\n"
+"		stop: 0.780478 #e3e3e3,\n"
+"		stop: 0.780488 #fbfbfb,\n"
+"		stop: 0.804868 #fbfbfb,\n"
+"		stop: 0.804878 #e3e3e3,\n"
+"		stop: 0.829258 #e3e3e3,\n"
+"		stop: 0.829268 #fbfbfb,\n"
+"		stop: 0.853649 #fbfbfb,\n"
+"		stop: 0.853659 #e3e3e3,\n"
+"		stop: 0.878039 #e3e3e3,\n"
+"		stop: 0.878049 #fbfbfb,\n"
+"		stop: 0.902429 #fbfbfb,\n"
+"		stop: 0.902439 #e3e3e3,\n"
+"		stop: 0.926819 #e3e3e3,\n"
+"		stop: 0.926829 #fbfbfb,\n"
+"		stop: 0.951210 #fbfbfb,\n"
+"		stop: 0.951220 #e3e3e3,\n"
+"		stop: 0.975600 #e3e3e3,\n"
+"		stop: 0.975610 #fbfbfb\n"
+"	);\n"
 "}\n"
 ""));
         iconBox->setAlignment(Qt::AlignCenter);
@@ -452,7 +548,24 @@ public:
         iconBox->setCheckable(false);
         gridLayout_2 = new QGridLayout(iconBox);
         gridLayout_2->setObjectName("gridLayout_2");
-        gridLayout_2->setContentsMargins(-1, 2, -1, 2);
+        gridLayout_2->setHorizontalSpacing(6);
+        gridLayout_2->setVerticalSpacing(0);
+        gridLayout_2->setContentsMargins(5, 0, 0, 0);
+        iconTitle = new QLabel(iconBox);
+        iconTitle->setObjectName("iconTitle");
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::MinimumExpanding, QSizePolicy::Policy::MinimumExpanding);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(iconTitle->sizePolicy().hasHeightForWidth());
+        iconTitle->setSizePolicy(sizePolicy1);
+        QFont font1;
+        font1.setPointSize(8);
+        font1.setStyleStrategy(QFont::NoAntialias);
+        iconTitle->setFont(font1);
+        iconTitle->setAlignment(Qt::AlignCenter);
+
+        gridLayout_2->addWidget(iconTitle, 0, 2, 1, 1);
+
         iconImage = new QLabel(iconBox);
         iconImage->setObjectName("iconImage");
         QSizePolicy sizePolicy2(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
@@ -465,46 +578,19 @@ public:
 
         gridLayout_2->addWidget(iconImage, 0, 1, 1, 1);
 
-        titleBox = new QGroupBox(iconBox);
-        titleBox->setObjectName("titleBox");
-        QSizePolicy sizePolicy3(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
-        sizePolicy3.setHorizontalStretch(0);
-        sizePolicy3.setVerticalStretch(0);
-        sizePolicy3.setHeightForWidth(titleBox->sizePolicy().hasHeightForWidth());
-        titleBox->setSizePolicy(sizePolicy3);
-        gridLayout_4 = new QGridLayout(titleBox);
-        gridLayout_4->setObjectName("gridLayout_4");
-        gridLayout_4->setContentsMargins(1, 1, 1, 1);
-        iconTitle = new QLabel(titleBox);
-        iconTitle->setObjectName("iconTitle");
-        QSizePolicy sizePolicy4(QSizePolicy::Policy::MinimumExpanding, QSizePolicy::Policy::MinimumExpanding);
-        sizePolicy4.setHorizontalStretch(0);
-        sizePolicy4.setVerticalStretch(0);
-        sizePolicy4.setHeightForWidth(iconTitle->sizePolicy().hasHeightForWidth());
-        iconTitle->setSizePolicy(sizePolicy4);
-        QFont font1;
-        font1.setFamilies({QString::fromUtf8("Courier New")});
-        font1.setPointSize(8);
-        font1.setBold(false);
-        font1.setItalic(false);
-        iconTitle->setFont(font1);
-        iconTitle->setAlignment(Qt::AlignCenter);
 
-        gridLayout_4->addWidget(iconTitle, 0, 1, 1, 1);
-
-        horizontalSpacer_2 = new QSpacerItem(20, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        gridLayout_4->addItem(horizontalSpacer_2, 0, 2, 1, 1);
-
-        horizontalSpacer_4 = new QSpacerItem(20, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        gridLayout_4->addItem(horizontalSpacer_4, 0, 0, 1, 1);
+        gridLayout_3->addWidget(iconBox, 0, 0, 1, 1);
 
 
-        gridLayout_2->addWidget(titleBox, 0, 2, 1, 1);
+        gridLayout_9->addWidget(frame, 0, 2, 1, 1);
 
+        horizontalSpacer = new QSpacerItem(0, 0, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
-        gridLayout_9->addWidget(iconBox, 0, 1, 1, 1);
+        gridLayout_9->addItem(horizontalSpacer, 0, 0, 2, 1);
+
+        horizontalSpacer_3 = new QSpacerItem(0, 0, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        gridLayout_9->addItem(horizontalSpacer_3, 0, 4, 2, 1);
 
         dsiIconBox = new QGroupBox(groupBox_2);
         dsiIconBox->setObjectName("dsiIconBox");
@@ -526,11 +612,11 @@ public:
         gridLayout_10->setContentsMargins(8, 6, 8, 6);
         dsiIconImage = new QLabel(dsiIconBox);
         dsiIconImage->setObjectName("dsiIconImage");
-        QSizePolicy sizePolicy5(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Minimum);
-        sizePolicy5.setHorizontalStretch(0);
-        sizePolicy5.setVerticalStretch(0);
-        sizePolicy5.setHeightForWidth(dsiIconImage->sizePolicy().hasHeightForWidth());
-        dsiIconImage->setSizePolicy(sizePolicy5);
+        QSizePolicy sizePolicy3(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Minimum);
+        sizePolicy3.setHorizontalStretch(0);
+        sizePolicy3.setVerticalStretch(0);
+        sizePolicy3.setHeightForWidth(dsiIconImage->sizePolicy().hasHeightForWidth());
+        dsiIconImage->setSizePolicy(sizePolicy3);
         dsiIconImage->setMinimumSize(QSize(32, 32));
         dsiIconImage->setMaximumSize(QSize(32, 32));
         dsiIconImage->setAlignment(Qt::AlignCenter);
@@ -538,21 +624,18 @@ public:
         gridLayout_10->addWidget(dsiIconImage, 0, 0, 1, 1);
 
 
-        gridLayout_9->addWidget(dsiIconBox, 0, 2, 1, 1, Qt::AlignHCenter);
+        gridLayout_9->addWidget(dsiIconBox, 0, 3, 1, 1, Qt::AlignHCenter);
+
+        saveIconButton = new QPushButton(groupBox_2);
+        saveIconButton->setObjectName("saveIconButton");
+
+        gridLayout_9->addWidget(saveIconButton, 1, 2, 1, 1);
 
         saveAnimatedIconButton = new QPushButton(groupBox_2);
         saveAnimatedIconButton->setObjectName("saveAnimatedIconButton");
         saveAnimatedIconButton->setEnabled(false);
 
-        gridLayout_9->addWidget(saveAnimatedIconButton, 1, 2, 1, 1);
-
-        horizontalSpacer_3 = new QSpacerItem(0, 0, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        gridLayout_9->addItem(horizontalSpacer_3, 0, 3, 2, 1);
-
-        horizontalSpacer = new QSpacerItem(0, 0, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        gridLayout_9->addItem(horizontalSpacer, 0, 0, 2, 1);
+        gridLayout_9->addWidget(saveAnimatedIconButton, 1, 3, 1, 1);
 
 
         gridLayout->addWidget(groupBox_2, 0, 0, 1, 2);
@@ -620,13 +703,12 @@ public:
         makerCode->setText(QCoreApplication::translate("ROMInfoDialog", "[maker code]", nullptr));
         label_10->setText(QCoreApplication::translate("ROMInfoDialog", "Card size:", nullptr));
         cardSize->setText(QCoreApplication::translate("ROMInfoDialog", "[card size]", nullptr));
-        saveIconButton->setText(QCoreApplication::translate("ROMInfoDialog", "Save icon", nullptr));
         iconBox->setTitle(QString());
-        iconImage->setText(QCoreApplication::translate("ROMInfoDialog", "[icon]", nullptr));
-        titleBox->setTitle(QString());
         iconTitle->setText(QCoreApplication::translate("ROMInfoDialog", "[title]", nullptr));
+        iconImage->setText(QCoreApplication::translate("ROMInfoDialog", "[icon]", nullptr));
         dsiIconBox->setTitle(QString());
         dsiIconImage->setText(QCoreApplication::translate("ROMInfoDialog", "[dsi icon]", nullptr));
+        saveIconButton->setText(QCoreApplication::translate("ROMInfoDialog", "Save icon", nullptr));
         saveAnimatedIconButton->setText(QCoreApplication::translate("ROMInfoDialog", "Save animated icon", nullptr));
     } // retranslateUi
 

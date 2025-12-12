@@ -1,54 +1,54 @@
-C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/EWIEGA46WW/moc_Window.cpp: C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Window.h \
-  C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/ScreenLayout.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/duckstation_compat.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/gl/context.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/duckstation/window_info.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/glad/glad.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/glad/khrplatform.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Config.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/Screen.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/color.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/comments.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/compat.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/datetime.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/error_info.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/exception.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/format.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/from.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/color_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/comments_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/datetime_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/error_info_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/format_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/location_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/region_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/source_location_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/fwd/value_t_fwd.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/color_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/comments_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/datetime_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/error_info_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/format_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/location_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/region_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/source_location_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/impl/value_t_impl.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/into.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/location.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/ordered_map.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/region.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/result.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/source_location.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/storage.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/traits.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/types.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/utility.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/value.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/value_t.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/toml/toml11/version.hpp \
-  C:/Users/valer/Downloads/melonDS-1.0/src/net/MPInterface.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/types.h \
+C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/EWIEGA46WW/moc_Window.cpp: C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Window.h \
+  C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/ScreenLayout.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/duckstation_compat.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/gl/context.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/duckstation/window_info.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/glad/glad.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/glad/khrplatform.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Config.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/Screen.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/color.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/comments.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/compat.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/datetime.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/error_info.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/exception.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/format.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/from.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/color_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/comments_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/datetime_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/error_info_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/format_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/location_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/region_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/source_location_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/fwd/value_t_fwd.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/color_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/comments_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/datetime_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/error_info_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/format_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/location_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/region_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/source_location_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/impl/value_t_impl.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/into.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/location.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/ordered_map.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/region.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/result.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/source_location.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/storage.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/traits.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/types.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/utility.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/value.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/value_t.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/toml/toml11/version.hpp \
+  C:/Users/vverd/Downloads/melonDS-master/src/net/MPInterface.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/types.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -292,6 +292,7 @@ C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/E
   C:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20type_traits.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20utility.h \
+  C:/msys64/mingw64/include/qt6/QtCore/q23type_traits.h \
   C:/msys64/mingw64/include/qt6/QtCore/q23utility.h \
   C:/msys64/mingw64/include/qt6/QtCore/qabstracteventdispatcher.h \
   C:/msys64/mingw64/include/qt6/QtCore/qalgorithms.h \
@@ -389,7 +390,6 @@ C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/E
   C:/msys64/mingw64/include/qt6/QtCore/qstringconverter_base.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringfwd.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringlist.h \
-  C:/msys64/mingw64/include/qt6/QtCore/qstringliteral.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringmatcher.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringtokenizer.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringview.h \

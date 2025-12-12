@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl",
+	"CMAKE_SOURCE_DIR" : "C:/Users/vverd/Downloads/melonDS-master",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/resources/dsi_battery2.svg",
+		"C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/resources/dsi_batteryalmostempty.svg",
+		"C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/resources/dsi_battery3.svg",
+		"C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/resources/dsi_batterylow.svg",
+		"C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/resources/dsi_batteryfull.svg"
+	],
+	"LOCK_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/CMakeFiles/melonDS_autogen.dir/AutoRcc_battery_LM5FNZ4CEB_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "battery" ],
+	"OUTPUT_CHECKSUM" : "LM5FNZ4CEB",
+	"OUTPUT_NAME" : "qrc_battery.cpp",
+	"RCC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/CMakeFiles/melonDS_autogen.dir/AutoRcc_battery_LM5FNZ4CEB_Used.txt",
+	"SOURCE" : "C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/PowerManagement/resources/battery.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

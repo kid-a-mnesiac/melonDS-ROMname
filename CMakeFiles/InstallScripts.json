@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/vverd/Downloads/melonDS-master/build/cmake_install.cmake",
+		"C:/Users/vverd/Downloads/melonDS-master/build/src/cmake_install.cmake",
+		"C:/Users/vverd/Downloads/melonDS-master/build/src/teakra/cmake_install.cmake",
+		"C:/Users/vverd/Downloads/melonDS-master/build/src/teakra/externals/cmake_install.cmake",
+		"C:/Users/vverd/Downloads/melonDS-master/build/src/teakra/src/cmake_install.cmake",
+		"C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/cmake_install.cmake",
+		"C:/Users/vverd/Downloads/melonDS-master/build/net/cmake_install.cmake",
+		"C:/Users/vverd/Downloads/melonDS-master/build/net/libslirp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

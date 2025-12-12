@@ -1,0 +1,36 @@
+#define VOS_NT_WINDOWS32    0x00040004L
+#define VFT_APP                      0x00000001L
+
+//this will set your .exe icon
+100 ICON MOVEABLE PURE LOADONCALL DISCARDABLE "C:/Users/vverd/Downloads/melonDS-master/res/melon.ico"
+
+//include version information in .exe, modify these values to match your needs
+1 VERSIONINFO
+FILEVERSION 1,1
+PRODUCTVERSION 1,1
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+	{
+		BLOCK "040904E4"
+		{
+			VALUE "CompanyName", "Melon Factory of Kuribo64"
+			VALUE "FileVersion", "1.1"
+			VALUE "FileDescription", "melonDS emulator"
+			VALUE "InternalName", "SDnolem"
+			VALUE "LegalCopyright", "2016-2025 melonDS team"
+			VALUE "LegalTrademarks", ""
+			VALUE "OriginalFilename", "melonDS.exe"
+			VALUE "ProductName", "melonDS"
+			VALUE "ProductVersion", "1.1"
+		}
+	}
+  BLOCK "VarFileInfo"
+	{
+		VALUE "Translation", 0x0409, 1252 //language codes
+	}
+}
+
+#if (01)
+1 24 "xp.manifest"
+#endif

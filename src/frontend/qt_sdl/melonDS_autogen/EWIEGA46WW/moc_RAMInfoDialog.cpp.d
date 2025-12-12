@@ -1,56 +1,57 @@
-C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/EWIEGA46WW/moc_RAMInfoDialog.cpp: C:/Users/valer/Downloads/melonDS-1.0/src/frontend/qt_sdl/RAMInfoDialog.h \
-  C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARCodeFile.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/AREngine.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARM.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_Compiler.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_Internal.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_Memory.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_RegisterCache.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARMJIT_x64/ARMJIT_Compiler.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ARM_InstrInfo.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/Args.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/CRC32.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/DMA.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/DSi_NAND.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/DSi_TMD.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/FATIO.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/FATStorage.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/FIFO.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/FreeBIOS.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/GBACart.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/GPU.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/GPU2D.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/GPU3D.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/GPU3D_Soft.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/JitBlock.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/MemConstants.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/MemRegion.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/NDS.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/NDSCart.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/NDS_Header.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/NonStupidBitfield.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/Platform.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/ROMList.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/RTC.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/SPI.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/SPI_Firmware.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/SPU.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/Savestate.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/TinyVector.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/Wifi.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/debug/GdbArch.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/debug/GdbCmds.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/debug/GdbStub.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/BitSet.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/Compat.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/x64ABI.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/x64Emitter.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/dolphin/x64Reg.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/fatfs/ff.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/fatfs/ffconf.h \
-  C:/Users/valer/Downloads/melonDS-1.0/src/types.h \
+C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/EWIEGA46WW/moc_RAMInfoDialog.cpp: C:/Users/vverd/Downloads/melonDS-master/src/frontend/qt_sdl/RAMInfoDialog.h \
+  C:/Users/vverd/Downloads/melonDS-master/build/src/frontend/qt_sdl/melonDS_autogen/moc_predefs.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARCodeFile.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/AREngine.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARM.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_Compiler.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_Internal.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_Memory.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_RegisterCache.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARMJIT_x64/ARMJIT_Compiler.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ARM_InstrInfo.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/Args.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/CRC32.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/DMA.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/DSi_NAND.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/DSi_TMD.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/FATIO.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/FATStorage.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/FIFO.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/FreeBIOS.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/GBACart.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/GPU.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/GPU2D.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/GPU3D.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/GPU3D_Soft.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/JitBlock.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/MemConstants.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/MemRegion.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/Mic.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/NDS.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/NDSCart.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/NDS_Header.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/NonStupidBitfield.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/Platform.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/ROMList.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/RTC.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/SPI.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/SPI_Firmware.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/SPU.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/Savestate.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/TinyVector.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/Wifi.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/debug/GdbArch.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/debug/GdbCmds.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/debug/GdbStub.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/dolphin/BitSet.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/dolphin/Compat.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/dolphin/x64ABI.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/dolphin/x64Emitter.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/dolphin/x64Reg.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/fatfs/ff.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/fatfs/ffconf.h \
+  C:/Users/vverd/Downloads/melonDS-master/src/types.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -310,6 +311,7 @@ C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/E
   C:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20type_traits.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20utility.h \
+  C:/msys64/mingw64/include/qt6/QtCore/q23type_traits.h \
   C:/msys64/mingw64/include/qt6/QtCore/q23utility.h \
   C:/msys64/mingw64/include/qt6/QtCore/qabstracteventdispatcher.h \
   C:/msys64/mingw64/include/qt6/QtCore/qabstractitemmodel.h \
@@ -404,7 +406,6 @@ C:/Users/valer/Downloads/melonDS-1.0/build/src/frontend/qt_sdl/melonDS_autogen/E
   C:/msys64/mingw64/include/qt6/QtCore/qstringconverter_base.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringfwd.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringlist.h \
-  C:/msys64/mingw64/include/qt6/QtCore/qstringliteral.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringmatcher.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringtokenizer.h \
   C:/msys64/mingw64/include/qt6/QtCore/qstringview.h \
