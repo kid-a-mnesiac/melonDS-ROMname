@@ -1,7 +1,7 @@
-<h2 align="center"><b>melonDS-RPC</b></h2>
+<h2 align="center"><b>melonDS-ROMname</b></h2>
 
-<b>melonDS-ROMname</b> is a fork of the <a href="https://github.com/melonDS-emu/melonDS">melonDS emulator</a>.
-<br>This forked version is required for melonDS Discord Rich Presence, <a href="https://github.com/kid-a-mnesiac/melonDS-RPC">melonDS-RPC</a>.
+<b>melonDS-ROMname</b> is a <a href="https://github.com/melonDS-emu/melonDS">melonDS 1.1 emulator</a> fork. 
+<br>This version of melonDS 1.1 is necessary for <a href="https://github.com/kid-a-mnesiac/melonDS-RPC">melonDS-RPC</a>, the Discord Rich Presence for melonDS emulator.
 
 ## Why is melonDS-ROMname needed? 
 
@@ -12,15 +12,29 @@ melonDS-RPC fetches the window title, de-obfuscates it through a special script 
 
 ## Requirements
 
-- Windows 10 or newer
+The only way how this version of the emulator differs from the parent one is by adding the current ROM name in the window title. This was done by changing a few lines in the Window.cpp file, everything else was left untouched. 
+This change is needed for the melonDS-RPC so that it can swiftly showcase the current game playing in the Discord RPC.
+Can run standalone for DS emulation, but if you want to use it for the Discord RPC you need this:
+
+- Windows 10 or newer is recommended (Windows 7 might work but is not officially supported)
   
 - Discord (desktop app)
   
-- <a href="https://github.com/kid-a-mnesiac/melonDS-RPC">melonDS-ROMname</a>
+- <a href="https://github.com/kid-a-mnesiac/melonDS-RPC">melonDS-RPC</a>
 
 ## Installation
 
-The installation is as simple as downloading the source code and running the melonDS.exe file. After that, run melonDS-ROMname. melonDS-RPC will automatically fetch the game name and display it in your Discord RPC. You don't have to have melonDS registered/detected for this to work.
+To start this modified version of the melonDS, please download both the source code (not the one found in the release, but rather the one you can download on the main page) and the release.
+<br>Put the release .exe file in the same folder with the source code and run the .exe. The .exe needs the .dll dependencies to run.
+
+## Main differences
+
+The only way how this version of the emulator differs from the parent one is by adding the current ROM name in the window title. This was done by changing a few lines in the <i>Window.cpp</i> file, everything else was left untouched. 
+This change is needed for the melonDS-RPC so that it can display the current game in the Discord RPC.
+
+## To-Do List
+
+- somehow compile this so it's more compact
 
 ## Credits
 
@@ -30,6 +44,6 @@ Please support the creators of <a href="https://github.com/melonDS-emu/melonDS">
 
 <p align="center">Happy gaming to everyone!</p>
 
-<p align="center"><img src="https://i.imgur.com/XswSLOc.gif"></p>
+<p align="center"><img src="https://i.imgur.com/qkS7qXG.gif"></p>
 
 
