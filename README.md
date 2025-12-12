@@ -1,7 +1,7 @@
 <h2 align="center"><b>melonDS-ROMname</b></h2>
 
 <b>melonDS-ROMname</b> is a <a href="https://github.com/melonDS-emu/melonDS">melonDS 1.1 emulator</a> fork. 
-<br>This version of melonDS 1.1 is necessary for <a href="https://github.com/kid-a-mnesiac/melonDS-RPC">melonDS-RPC</a>, the Discord Rich Presence for melonDS emulator.
+<br>This version of modified melonDS 1.1 is necessary for <a href="https://github.com/kid-a-mnesiac/melonDS-RPC">melonDS-RPC</a>, the Discord Rich Presence for melonDS emulator.
 
 ## Why is melonDS-ROMname needed? 
 
@@ -27,13 +27,19 @@ To start this modified version of the melonDS, please download both the source c
 
 ## Main differences
 
-The only way how this version of the emulator differs from the parent one is by adding the current ROM name in the window title. This was done by changing a few lines in the <i>Window.cpp</i> file, everything else was left untouched. 
+The only way how this version of the emulator differs from the parent one is by adding the current ROM name in the window title. This was done by changing code in <i>Window.h</i> and <i>Window.cpp</i> files, everything else was left untouched. 
 This change is needed for the melonDS-RPC so that it can display the current game in the Discord RPC.
 
-## To-Do List
+## To-Do List & Changelog
+
+### To-Do List
 
 - somehow compile this so it's more compact
 
+### Changelog
+
+- Cleaned recent ROM history
+  
 ## Credits
 
 Please support the creators of <a href="https://github.com/melonDS-emu/melonDS">melonDS emulator</a>.
