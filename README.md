@@ -22,8 +22,8 @@ Can run standalone for DS emulation, but if you want to use it for the Discord R
 
 ## Installation
 
-To start this modified version of the melonDS, please download both the source code (not the one found in the release, but rather the one you can download on the main page) and the release.
-<br>Put the release .exe file in the same folder with the source code and run the .exe. The .exe needs the .dll dependencies to run.
+To start this modified version of the melonDS, please download the source code (not the one found in the release, but rather the one you can download on the main page).
+<br>Run the .exe found in the source code folder. The .exe needs the .dll dependencies to run, so you can't drag it to your desktop. For that, make a shortcut of the .exe file.
 
 ## Main differences
 
@@ -37,7 +37,7 @@ This change is needed for the melonDS-RPC so that it can display the current gam
 - somehow compile this so it's more compact
 
 ### Changelog
-
+12.12.2025
 - Cleaned recent ROM history
   
 ## Credits
