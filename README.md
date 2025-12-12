@@ -12,8 +12,6 @@ melonDS-RPC fetches the window title, de-obfuscates it through a special script 
 
 ## Requirements
 
-The only way how this version of the emulator differs from the parent one is by adding the current ROM name in the window title. This was done by changing a few lines in the Window.cpp file, everything else was left untouched. 
-This change is needed for the melonDS-RPC so that it can swiftly showcase the current game playing in the Discord RPC.
 Can run standalone for DS emulation, but if you want to use it for the Discord RPC you need this:
 
 - Windows 10 or newer is recommended (Windows 7 might work but is not officially supported)
